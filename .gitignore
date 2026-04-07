@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+*.tar.gz
+sbatch_*
+setup_git.sh
+old/
+.DS_Store
