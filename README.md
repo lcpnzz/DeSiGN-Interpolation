@@ -1,4 +1,4 @@
-# DeSigN Interpolation
+# Interpolation of deconstructed MC events for Di-Higgs studies
 
 Surrogate-model interpolation of BSM di-Higgs $m_{HH}$ distributions from deconstructed LHE Monte Carlo samples.
 
