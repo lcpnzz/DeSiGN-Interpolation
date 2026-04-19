@@ -25,8 +25,8 @@ pip install pynvml
 The repository includes pre-computed cache files for the `S_13t` database. No LHE files or HPC access are needed:
 
 ```bash
-git clone https://github.com/lcpnzz/DeSigN-Interpolation.git
-cd DeSigN-Interpolation
+git clone https://github.com/lcpnzz/InterpolationDeconstructedMC.git
+cd InterpolationDeconstructedMC
 python3 morph_ml.py S_13t 850 0.001
 ```
 
@@ -59,7 +59,7 @@ python3 morph_ml.py S_13t 850 0.001 --mhh-range 250 2000 10 --verbose
 
 ### Key options
 
-| Flag | Default | Description |
+| Flag | Default | cription |
 |------|---------|-------------|
 | `--model` | auto | Force model: `mdn`, `nsf`, `ebm`, `mdn+g`, `eft`, `bdt` |
 | `--fulltraining` | off | Train on all grid points |
@@ -76,7 +76,7 @@ python3 morph_ml.py S_13t 850 0.001 --mhh-range 250 2000 10 --verbose
 
 ### Models
 
-| Model | Description | Handles dips | Physics init |
+| Model | cription | Handles dips | Physics init |
 |-------|-------------|:---:|:---:|
 | `mdn` | Skew-$t$ Mixture Density Network | ✗ | ✓ |
 | `nsf` | Neural Spline Flow | ✓ | ✗ |
